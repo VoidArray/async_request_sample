@@ -10,7 +10,7 @@ URLS = [
         
 async def fetch(client, url):
     try:
-        async with client.get(url, timeout=3) as resp:
+        async with client.get(url, timeout=2) as resp:
             return await resp.json()
     except asyncio.TimeoutError:
         return {}
