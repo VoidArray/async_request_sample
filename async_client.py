@@ -14,7 +14,6 @@ async def fetch(client, url):
             return await resp.json()
     except asyncio.TimeoutError:
         return {}
-        # pass
 
         
 async def main(loop):

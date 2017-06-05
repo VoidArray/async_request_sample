@@ -16,7 +16,7 @@ python manage.py migrate
 
 python manage.py createsuperuser
 
-###З апустить
+### Запустить
 
 python manage.py runserver
 
